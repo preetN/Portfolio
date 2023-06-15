@@ -32,6 +32,7 @@ sidenav a:hover {
 .backgroundtile {
   margin-top: 3%;
   background: rgb(90, 87, 87);
+  border-radius: 10px;
   color: white;
   height: 90vh;
   display: flex;
@@ -61,9 +62,8 @@ sidenav a:hover {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.intro p {
+.intro div {
   font-size: 2rem;
-
   font-style: italic;
   font-weight: bolder;
 }
@@ -94,6 +94,7 @@ sidenav a:hover {
 }
 .edu_wrapper {
   background: rgba(90, 87, 87, 0.164);
+  border-radius: 10px;
   height: 80vh;
   margin-top: 3%;
   display: flex;
@@ -110,6 +111,7 @@ sidenav a:hover {
   flex-direction: column;
   flex-grow: 2;
   width: 240px;
+  min-height: 400px;
 }
 .edu_card img {
   border-radius: 25px 0px 0px;
@@ -129,7 +131,7 @@ uni {
 .workexp_wrapper {
   height: 80vh;
   margin-top: 3%;
-
+  border-radius: 10px;
   background: rgba(90, 87, 87, 0.164);
   color: white;
   display: flex;
@@ -139,6 +141,7 @@ uni {
 /* Interest */
 .interest_wrapper {
   height: 80vh;
+  border-radius: 10px;
   background: rgba(90, 87, 87, 0.164);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -153,6 +156,7 @@ uni {
 }
 .contact_wrapper {
   height: 80vh;
+  border-radius: 10px;
   background: rgba(90, 87, 87, 0.164);
   color: white;
   display: flex;
@@ -177,6 +181,52 @@ uni {
 /* Footer */
 footer {
   background: rgb(90, 87, 87);
-  color: white;
+  color: rgba(255, 255, 255, 0.864);
   font-size: 0.6rem;
+}
+@media (max-width: 992px) {
+  .photo {
+    height: 350px;
+  }
+  .intro div {
+    margin: 25px 0px;
+  }
+  .edu_card {
+    width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .backgroundtile {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .photo {
+    margin-top: 40px;
+  }
+  .intro {
+    width: 90%;
+    padding: 0rem;
+  }
+  .intro div {
+    margin: 15px 0px;
+    font-size: 1.5rem;
+  }
+  .intro role {
+    font-size: 1rem;
+  }
+  .intro tagline {
+    font-size: smaller;
+  }
+  .intro .btn_intro {
+    margin-top: 10px;
+  }
+  .edu_wrapper {
+    flex-direction: column;
+  }
+  .edu_card {
+    flex-direction: row;
+    width: 100%;
+    min-height: 10px;
+    margin-top: 10px;
+  }
 }
