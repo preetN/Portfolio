@@ -33,8 +33,9 @@ sidenav a:hover {
   margin-top: 3%;
   background: rgb(90, 87, 87);
   border-radius: 10px;
+  padding: 10px;
   color: white;
-  height: 90vh;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +55,7 @@ sidenav a:hover {
 
 .intro {
   width: 70%;
-  padding: 3rem;
+  padding: 3em;
   text-align: center;
   margin-left: 10px;
 }
@@ -63,12 +64,12 @@ sidenav a:hover {
     "Lucida Sans", Arial, sans-serif;
 }
 .intro div {
-  font-size: 2rem;
+  font-size: 2em;
   font-style: italic;
   font-weight: bolder;
 }
 .intro role {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 .intro .btn_intro {
   margin-top: 40px;
@@ -88,14 +89,14 @@ sidenav a:hover {
   text-align: center;
   color: white;
   margin-top: 50px;
-  font-size: 2rem;
+  font-size: 2em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 .edu_wrapper {
   background: rgba(90, 87, 87, 0.164);
   border-radius: 10px;
-  height: 80vh;
+  height: 20%;
   margin-top: 3%;
   display: flex;
   justify-content: space-between;
@@ -129,7 +130,7 @@ uni {
 }
 /* WorkExperience */
 .workexp_wrapper {
-  height: 80vh;
+  height: 20%;
   margin-top: 3%;
   border-radius: 10px;
   background: rgba(90, 87, 87, 0.164);
@@ -140,7 +141,7 @@ uni {
 }
 /* Interest */
 .interest_wrapper {
-  height: 80vh;
+  height: 20%;
   border-radius: 10px;
   background: rgba(90, 87, 87, 0.164);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -155,7 +156,7 @@ uni {
   list-style-type: none;
 }
 .contact_wrapper {
-  height: 80vh;
+  height: 20%;
   border-radius: 10px;
   background: rgba(90, 87, 87, 0.164);
   color: white;
@@ -182,7 +183,7 @@ uni {
 footer {
   background: rgb(90, 87, 87);
   color: rgba(255, 255, 255, 0.864);
-  font-size: 0.6rem;
+  font-size: 0.6em;
 }
 @media (max-width: 992px) {
   .photo {
@@ -205,14 +206,14 @@ footer {
   }
   .intro {
     width: 90%;
-    padding: 0rem;
+    padding: 0em;
   }
   .intro div {
     margin: 15px 0px;
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
   .intro role {
-    font-size: 1rem;
+    font-size: 1em;
   }
   .intro tagline {
     font-size: smaller;
